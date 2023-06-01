@@ -81,9 +81,9 @@ DATABASES = {
 		'ENGINE': 'django.db.backends.postgresql',
     'NAME': 'railway',
     'USER': 'postgres',
-    'PASSWORD': 'U9nY7uau8ZZywm8Sdrgf',
-    'HOST': 'containers-us-west-196.railway.app',
-    'PORT': '7021',
+    'PASSWORD': '0SjWkZRqE49JBv2U21gc',
+    'HOST': 'containers-us-west-41.railway.app',
+    'PORT': '7632',
 	}
 }
 
@@ -126,7 +126,7 @@ STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
 STATIC_URL = 'static/'
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, MEDIA_URL)
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
